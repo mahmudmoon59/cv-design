@@ -1,0 +1,150 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #eee;
+        font-family: cursive;
+    }
+
+    .container {
+        overflow: hidden;
+    }
+
+    .container {
+        max-width: 1000px;
+        background-color: #bfe5eaf0;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .floatLeft {
+        float: left;
+    }
+
+    .floatRight {
+        float: right;
+    }
+
+    .profile-image {
+        width: 150px;
+        height: 150px;
+        border: 3px solid white;
+        border-radius: 50%;
+    }
+
+    .header-bio {
+        padding: 30px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #5651a2e8;
+    }
+
+    .header-contact {
+        padding: 30px;
+
+    }
+
+    .header-contact a {
+        text-decoration: none;
+        color: #097909;
+        font-weight: bold;
+    }
+
+    .header-contact a:hover {
+        color: white;
+        background-color: red;
+        padding: 3px;
+        border-radius: 5px;
+    }
+
+    .overflow-hide {
+        overflow: hidden;
+    }
+
+    hr {
+        border: 3px solid black;
+        margin: 20px auto;
+        border-bottom: none;
+    }
+
+    /**--------
+    Personal section start
+    ---------**/
+    .left-div {
+        width: 225px;
+        float: left;
+    }
+
+    .right-div {
+        width: calc(100% - 225px);
+        float: left;
+    }
+
+    .common-hr {
+        border: 1px solid black;
+        border-bottom: none;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .info {
+        font-weight: bold;
+    }
+
+    ul {
+        margin-left: 20px;
+    }
+
+    .edu-left,
+    .ref-left {
+        float: left;
+        width: 45%;
+    }
+
+    .edu-right,
+    .ref-right {
+        float: right;
+        width: 45%;
+    }
+
+    footer.all-foot {
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+    }
+
+    footer.all-foot a {
+        color: white;
+        text-decoration: none;
+        margin: 20px;
+    }
+
+    footer.all-foot p {
+        color: white;
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 767px) {
+
+        .floatRight,
+        .floatLeft {
+            float: none;
+        }
+
+        .header-bio,
+        .header-contact {
+            padding: 10px;
+        }
+
+        header {
+            text-align: center;
+        }
+    }
